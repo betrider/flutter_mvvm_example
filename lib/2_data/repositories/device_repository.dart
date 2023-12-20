@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm_example/2_data/data_source/remote/rest_api.dart';
-import 'package:flutter_mvvm_example/2_data/model/response/default_response.dart';
+import 'package:flutter_mvvm_example/2_data/datasources/remote/rest_api.dart';
+import 'package:flutter_mvvm_example/2_data/models/response/default_response.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final deviceRepositoryProvider = ChangeNotifierProvider<DeviceRepository>((ref) {
